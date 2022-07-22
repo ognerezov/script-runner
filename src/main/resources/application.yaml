@@ -1,0 +1,10 @@
+spring:
+  output:
+    ansi:
+      enabled: ALWAYS
+server:
+  port: 5678
+secret: your secret
+settings:
+  scripts:
+    test : ./test.sh
